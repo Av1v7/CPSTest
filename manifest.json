@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "CPS Test",
+    "description": "A simple Clicks Per Second (CPS) test for Chrome",
+    "version": "0.1.0",
+    "icons": {
+        "16": "images/CPS-TEST.png",
+        "48": "images/CPS-TEST.png",
+        "128": "images/CPS-TEST.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "html/startScene.html",
+        "default_icon": "images/CPS-TEST.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/startScene.js"
+            ],
+            "css": [
+                "css/startScene.css"
+            ]
+        }
+    ]
+}

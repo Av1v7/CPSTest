@@ -1,0 +1,113 @@
+#my-extension-container html {
+    overflow: hidden;
+    user-select: none;
+}
+
+#my-extension-container body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-extension-container .container {
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    padding: 20px 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#my-extension-container .instructions {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#my-extension-container .click-area {
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+#my-extension-container .click-count {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#my-extension-container .timer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#my-extension-container .actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#my-extension-container button {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    height: 65px;
+    width: 200px;
+}
+
+#my-extension-container button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+#my-extension-container button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.credit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+    align-items: center;
+}
+
+.credit-text {
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fa-discord {
+    color: #7289DA;
+    font-size: 18px;
+}
+
+.fa-github {
+    color: #000;
+    font-size: 18px;
+}
