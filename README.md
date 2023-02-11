@@ -10,8 +10,10 @@ A simple Clicks Per Second (CPS) test extension for chrome
   6. Enjoy !
   
   ## Enjoy.
-  ![ScreenShot1](https://cdn.discordapp.com/attachments/961638514389287002/1074059790399053864/image.png)\n
+  ![ScreenShot1](https://cdn.discordapp.com/attachments/961638514389287002/1074059790399053864/image.png)
+  
   ![ScreenShot2](https://cdn.discordapp.com/attachments/961638514389287002/1074059790793322677/image.png)
+  
   ![ScreenShot3](https://cdn.discordapp.com/attachments/961638514389287002/1074059791032393779/image.png)
 
 ### Need Help?
